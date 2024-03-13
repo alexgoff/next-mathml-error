@@ -1,8 +1,8 @@
-import { FunctionComponent } from "react";
+import { ChangeEvent, FunctionComponent } from "react";
 
 const MathInput: FunctionComponent<{
   value?: number;
-  onChangeCallback: (event) => void;
+  onChangeCallback: (event: ChangeEvent<HTMLInputElement>) => void;
 }> = ({ value, onChangeCallback }) => {
   return (
     <input

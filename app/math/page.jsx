@@ -1,9 +1,9 @@
 "use client";
-import { FunctionComponent, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import MathInput from "./MathInput";
 
-const MathPage: FunctionComponent = () => {
+const MathPage = () => {
   const [input, setInput] = useState(2);
   const variable = 1;
 
